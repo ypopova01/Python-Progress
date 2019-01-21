@@ -1,4 +1,8 @@
 weight = int(input("Enter your weight in kilos: "))
+try:
+   height = float(input("Enter your height in meters: "))
+except ValueError:
+   print("This is not a valid number. Please enter your height as a floating number with a dot instead of a comma")
 height = float(input("Enter your height in meters: "))
 BMI = weight/(height**2)
 print(round(BMI,2))
