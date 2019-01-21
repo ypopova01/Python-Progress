@@ -1,0 +1,5 @@
+astro_hour = 60
+acad_hour = 40
+break_var = 5
+astro_hours_sum = 64 * int(acad_hour + break_var)/astro_hour
+print(astro_hours_sum)
